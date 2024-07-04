@@ -42,6 +42,10 @@ body{
     justify-content: center;
 }
 
+#landing, #services, #testimonials, #about, #contact{
+    overflow-x: hidden;
+}
+
 #landing{
     overflow-y: hidden;
 }
@@ -160,12 +164,12 @@ body{
     color: #fff;
     padding: 3.125em;
     flex-direction: column;
+    text-align: center;
 }
 
 .contact-info {
     display: block;
     text-align: center;
-    
     font-weight: 600;
 }
 

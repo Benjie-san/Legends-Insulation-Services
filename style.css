@@ -42,6 +42,7 @@ body{
 }
 
 #landing, #services, #testimonials, #about, #contact{
+    width: 100%;
     overflow-x: hidden;
     text-align: center;
 }

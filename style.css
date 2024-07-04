@@ -8,7 +8,6 @@ html::-webkit-scrollbar{
 }
 
 body{
-    width: 100vw;
     height: 100vh;
     padding: 0;
     margin: 0;
@@ -44,6 +43,7 @@ body{
 
 #landing, #services, #testimonials, #about, #contact{
     overflow-x: hidden;
+    text-align: center;
 }
 
 #landing{

@@ -164,6 +164,7 @@ body{
     padding: 3.125em;
     flex-direction: column;
     text-align: center;
+    gap: 0.625em;
 }
 
 .contact-info {

@@ -7,6 +7,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+        <!-- Option 1: Include in HTML -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
         <title>Legends Insulation Service</title>
     </head>
 
@@ -21,7 +23,22 @@
                 <a href="#about">About</a>
                 <a href="#testimonials">Testimonials</a>
                 <a href="#footer">Contact</a>
+            </div>
 
+            <div id="menu-btn">
+                <button onclick=handleModal()>
+                    <i class="bi bi-list"></i>
+                </button>
+            
+            </div>
+
+            <div id="menu-modal" >
+                <div class="flex" id="header-modal-list">
+                    <a href="#services">Services</a>
+                    <a href="#about">About</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#footer">Contact</a>
+                </div>
             </div>
 
         </div>
